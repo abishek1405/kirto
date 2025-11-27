@@ -1,0 +1,39 @@
+.contact-section {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 42px;
+}
+
+.lead {
+  color: #d9e4ec !important;
+}
+
+.contact-card {
+  background: #ffffff;
+  border-radius: 15px;
+  max-width: 550px;
+}
+
+.contact-item .icon {
+  font-size: 26px;
+  color: #0d6efd;
+}
+
+.btn-call-now {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-call-now:hover {
+  background-color: #084298;
+  color: #fff;
+}
