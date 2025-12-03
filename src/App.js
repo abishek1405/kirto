@@ -3,16 +3,18 @@ import Home from "./component/home";
 import ContactUs from "./component/contact"
 import Career from "./component/career";
 import Ourteam from "./component/ourteam"
+import Pagenotfound from "./component/pagenotfound"
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/careers" element={<Career />} />
-        <Route path="/ourteam" element={<Ourteam />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/contact" element={<ContactUs />} />
+        <Route exact path="/careers" element={<Career />} />
+        <Route exact path="/ourteam" element={<Ourteam />} />
+        <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </BrowserRouter>
   );
