@@ -1,4 +1,3 @@
-import { FaCode, FaMobileAlt, FaPenNib } from "react-icons/fa";
 import Navbar from "../navbar";
 import "./index.css";
 import Footer from "../footer";
