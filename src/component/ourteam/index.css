@@ -1,4 +1,4 @@
-.career-section {
+.team-section {
   background: linear-gradient(135deg, #db1a44, #754804);
   padding-top: 80px;
   padding-bottom: 80px;
@@ -38,4 +38,9 @@
 .btn-apply:hover {
   background-color: #084298;
   color: #fff;
+}
+
+
+.profile-pic{
+  width: 200px;
 }

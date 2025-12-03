@@ -34,10 +34,26 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold">Contact Us</h6>
-            <p className="small mb-1">📞 <strong>+91 63824 22474</strong></p>
-            <p className="small mb-1">📞 <strong>+91 63747 62751</strong></p>
-            <p className="small mb-1">📧 learntekin@gmail.com</p>
-            <p className="small mb-1">📧 kritohubtechnologies@gmail.com</p>
+            <p className="small mb-1">
+              📞 <a className="links" href="tel:+916374762751"><strong>+91 63747 62751</strong></a>
+            </p>
+
+            <p className="small mb-1">
+              📞 <a className="links" href="tel:+916382422474"><strong>+91 63824 22474</strong></a>
+            </p>
+
+            <p className="small mb-1">
+              📧 <a className="links" href="mailto:kritohubtechnologies@gmail.com">
+                kritohubtechnologies@gmail.com
+              </a>
+            </p>
+
+            <p className="small mb-1">
+              📧 <a className="links" href="mailto:learntekin@gmail.com">
+                learntekin@gmail.com
+              </a>
+            </p>
+
           </div>
 
           {/* Social Media */}

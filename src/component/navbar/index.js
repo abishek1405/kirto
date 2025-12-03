@@ -31,7 +31,9 @@ export default function Navbar() {
                 <li className="nav-item">
                 <a className="nav-link text-white" href="#services">Services</a>
                 </li>
-
+                <li className="nav-item">
+                  <Link className="nav-link text-white" to="/ourteam">Our Team</Link>
+                </li>
                 <li className="nav-item">
                 <Link className="nav-link text-white" to="/careers">Careers</Link>
                 </li>
