@@ -313,5 +313,11 @@
 }
 
 .about-p{
-  text-align: justify;
+  text-align:left;
+}
+
+@media (min-width:700px) {
+  .about-p{
+    text-align: justify;
+  }
 }
